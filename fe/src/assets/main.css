@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#app {
+  margin: 10px;
+}
+
+/* Nút mở popup */
+.btn {
+  @apply px-4 py-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600;
+}
+
+/* Overlay */
+.overlay {
+  @apply fixed top-0 left-0 w-full h-full z-50 bg-gray-500/50 flex justify-center items-center;
+}
+
+/* Nội dung popup */
+.popup {
+  @apply bg-white p-10 rounded-lg shadow-lg;
+}
+
+
+/* .btn {
+  @apply px-4 py-2 rounded-md;
+}
+
+.btn-purple {
+  @apply bg-purple-500 text-white;
+}
+
+.btn-close {
+  @apply float-right;
+}
+
+.select-container {
+  @apply absolute top-0 left-0 right-0 bottom-0 z-10 bg-white;
+}
+
+.select-header {
+  @apply border-b border-gray-200;
+}
+
+.select-body {
+  @apply py-4;
+}
+
+.select-row {
+  @apply flex items-center mb-4;
+}
+
+.select-footer {
+  @apply border-t border-gray-200;
+}
+
+.btn-cancel {
+  @apply mr-4;
+}
+
+.btn-apply {
+  @apply bg-purple-500 text-white;
+} */
